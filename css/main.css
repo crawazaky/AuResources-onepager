@@ -7,6 +7,7 @@
    width:50%;
 }
 
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -42,10 +43,12 @@ iframe {
 a, a:focus, a:hover {
     text-decoration: none;
     outline: 0;
+    cursor: pointer;
 }
 
 a:focus, a:hover {
-    color: #6CB670;
+    text-decoration: underline !important;
+    color: #fff;
 }
 
 h1, h2, h3,
@@ -206,19 +209,35 @@ body > section,
 
 .carousel-caption h3 {
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 6px 0 20px;
 }
 
+.carousel-caption div {
+  font-size: 18px;
+  padding: 15px;
+  background-color: #bf8f24;
+  border-radius: 5px;
+  margin-top: 5%;
+  line-height: 1.4em;
+}
+
+.carousel-caption div > span {
+  font-weight: 600;
+  display: block;
+}
+
+
 .carousel-caption p {
   color: #fff;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 1.4em;
 }
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-color: #0feb9e;
+color: #bf8f24;
 content: "___";
 position: relative;
 top: -8px;
