@@ -1,10 +1,27 @@
 
+<<<<<<< Updated upstream
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
+=======
+.learnmore span{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.color {
+	color: #bf8f24;
+
+}
+.heading {
+position: relative;
+top: 10%;
+text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+>>>>>>> Stashed changes
 
 .main-logo {
-   width:50%;
+   width:70%;
 }
 
 
@@ -40,10 +57,40 @@ iframe {
     border: 0;
 }
 
+<<<<<<< Updated upstream
 a, a:focus, a:hover {
     text-decoration: none;
     outline: 0;
     cursor: pointer;
+=======
+.heading div > span {
+    font-weight: 600;
+    display: block;
+}
+
+
+.knowmore {
+
+    padding: 15px;
+    background-color: #bf8f24;
+    border-radius: 5px;
+    margin-top: 5%;
+    line-height: 1.4em;
+    color: #FFF;
+}
+
+.knowmore h4 {
+    font-size: 1.5rem;
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+
+.knowmore span {
+	font-size: 1.2rem;
+    text-decoration: none;
+    outline: 0;
+    color: #FFF;
+>>>>>>> Stashed changes
 }
 
 a:focus, a:hover {
@@ -71,8 +118,101 @@ h4, h5, h6 {
    *zoom: 1;
 }
 
+<<<<<<< Updated upstream
 span.color {
 	color: #bf8f24;
+=======
+.marble-bg {
+	background-image: url(../img/gold-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.double-quotes {
+	z-index: 999;
+  	position: relative;
+  	padding: 20px;
+  	margin: 20px;
+
+}
+
+.double-quotes p {
+  	z-index: 1;
+    position: relative;
+}
+
+.double-quotes:before {
+	color: #FFF;	
+	content: '“';
+	position: absolute;
+	font-size: 250px;
+	opacity: 0.3;
+	font-family: "Catamaran";
+	top: -70px;
+	left: 0;
+}
+
+.double-quotes:after {
+	color: #FFF;
+	bottom: -70px;
+	right: 0;
+	content: '„';
+	position: absolute;
+	font-size: 250px;
+	opacity: 0.3;
+	font-family: "Catamaran";
+}
+
+.descr-texte {
+	text-align: center;
+	font-size: 1.45vmax;
+	line-height: 1.2em;
+	font-style: italic;
+	color: #FFF;
+}
+
+.descr-team{
+	font-size: 1.45rem;
+	line-height: 1.2em;
+	font-style: italic;
+	color: #FFF;
+}
+
+.name-team {
+	text-align: center;
+	font-size: 2rem;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.title-team {
+	text-align: center;
+	font-size: 1.65rem;
+	line-height: 1.2em;
+	font-style: italic;
+	font-weight: 500;
+	color: #FFF;
+}
+
+.image-team {
+
+}
+
+.section-name {
+	text-align: center;
+	font-size: 3vmax;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #FFF;
+
+}
+
+.copyright {
+color: #FFF;
+padding-top: 20px;
+>>>>>>> Stashed changes
 }
 
 body > section,
